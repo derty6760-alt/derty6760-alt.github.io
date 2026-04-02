@@ -1,0 +1,51 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.cases {
+  margin: 40px;
+}
+
+.case {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+button {
+  padding: 10px 20px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.roulette {
+  margin-top: 40px;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid white;
+  display: flex;
+}
+
+.item {
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+}
