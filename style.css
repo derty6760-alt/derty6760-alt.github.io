@@ -49,3 +49,16 @@ button {
   margin-top: 20px;
   font-size: 24px;
 }
+.roulette {
+  display: flex; /* Выстраивает скины в одну линию */
+  flex-direction: row;
+  transition: transform 2s ease-out; /* Плавная остановка */
+  white-space: nowrap;
+}
+.item {
+  min-width: 150px; /* Фиксированная ширина каждого скина */
+  height: 100px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  margin: 5px;
+}
